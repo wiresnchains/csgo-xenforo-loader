@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{df954bfc-5695-43d0-bd44-3b1516eb9d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f5107e85-2d23-44f0-a43b-6a8df6e04717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\advanced-utils">
+      <UniqueIdentifier>{b19797d4-865f-4edb-875b-65bded6e3f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{d847e87e-f83e-436e-ad1e-42b779109db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\lazy-importer">
+      <UniqueIdentifier>{af10716d-cb69-4e11-b242-850fefce2fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\webclient">
+      <UniqueIdentifier>{9eb2c2aa-e0f4-4464-9bbf-c0f2c4c49add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\inject">
+      <UniqueIdentifier>{101ef8d2-4efd-4f2e-b711-e5ccef78bda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\inject\Helpers">
+      <UniqueIdentifier>{6ce94a2c-d7f3-499e-b034-eccb07a01c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\encrypt-decrypt">
+      <UniqueIdentifier>{1a39fb61-d80c-4c86-a563-ae55f6d1e184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{2000f3db-5577-456f-a050-73394f0c7bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection\AntiDebug">
+      <UniqueIdentifier>{cab881bc-461c-4327-948d-59676ce24949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils\advanced-utils\advanced_utils.cpp">
+      <Filter>utils\advanced-utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\webclient\webclient.cpp">
+      <Filter>utils\webclient</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\inject\inject.cpp">
+      <Filter>utils\inject</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\inject\Helpers\GetProcId.cpp">
+      <Filter>utils\inject\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="protection\AntiDebug\AntiDebug.cpp">
+      <Filter>protection\AntiDebug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\globals.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\advanced-utils\advanced_utils.hpp">
+      <Filter>utils\advanced-utils</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\lazy-importer\lazy_importer.hpp">
+      <Filter>utils\lazy-importer</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\webclient\webclient.hpp">
+      <Filter>utils\webclient</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\inject\inject.hpp">
+      <Filter>utils\inject</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\inject\Helpers\GetProcId.hpp">
+      <Filter>utils\inject\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\encrypt-decrypt\xorstr.hpp">
+      <Filter>utils\encrypt-decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\ErasePEHeaders.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\LazyImporter.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protection\AntiDebug\AntiDebug.hpp">
+      <Filter>protection\AntiDebug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\th32.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
