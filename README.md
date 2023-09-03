@@ -1,17 +1,20 @@
-# csgo-xenforo-loader
-C++ Loader with LLA injection and authorization with xenforo api
+# CS:GO Loader with XenForo Authorization
+- LoadLibraryA Injector
+- Basic Anti Debugger
+- XenForo Authorization
+- HWID Checks
 
-#Info
-Inject: LoadLibrary
-Bindings: hwid, xenforo account
-Protection: AntiDebug, ErasePEheaders (You can add VMProtect)
-String encryptor: xorstr
+##  Protection
+- AntiDebug
+- ErasePEheaders
+- String encryptor: xorstr
 
-#Client side setup
-Compile - Release x86
+## Client side setup
+Compile - Release x86<br />
 Settings - headers/globals.hpp
 
-#Server side setup
-Setup mysql connection in loader.php file ($sql = mysqli_connect("host", "name", "pass", "database"))
-Setup and sync config.php with globals.hpp
-Upload the dll in your client folder
+## Server side setup
+Setup and sync config.php with globals.hpp<br />
+Upload the dll in your client folder<br />
+Setup mysql connection in loader.php file<br />
+> $sql = mysqli_connect("host", "name", "pass", "database")
