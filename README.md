@@ -15,6 +15,6 @@ Settings - headers/globals.hpp
 
 ## Server side setup
 Setup and sync config.php with globals.hpp<br />
-Upload the dll in your client folder<br />
+Upload the dll in your client folder (yes, it is confusing, there is a folder called "client" on server)<br />
 Setup mysql connection in loader.php file<br />
 > $sql = mysqli_connect("host", "name", "pass", "database")
